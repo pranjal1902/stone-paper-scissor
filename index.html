@@ -1,0 +1,55 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width,
+				initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<title>Rock Paper Scissor</title>
+</head>
+<body>
+	<section class="game">
+		<!--Title -->
+		<div class="title">Rock Paper Scissor</div>
+		
+		<!--Display Score of player and computer -->
+		<div class="score">
+			<div class="playerScore">
+				<h2>Player</h2>
+				<p class="p-count count">0</p>
+
+			</div>	
+			<div class="computerScore">
+				<h2>Computer</h2>
+				<p class="c-count count">0</p>
+
+			</div>
+		</div>
+		<img src="https://tse1.mm.bing.net/th?id=OIP.4UJFG_pKbaPTArmKgQl9NQAAAA&pid=Api&P=0&h=180"><br/>
+		<div class="move">Choose your move</div>
+		
+		<!--Number of moves left before game ends -->
+		<div class="movesleft">Moves Left: 10 </div>
+		
+		<!--Options available to player to play game -->
+		<div class="options">
+            
+			<button class="rock"><b>Rock</b><img src="https://tse4.mm.bing.net/th?id=OIP.CASI0FDZOuHLOSVDYJe4JgHaHa&pid=Api&P=0&h=180" width="70" height="70"></button>
+			<button class="paper"><b>Paper</b><img src="https://tse3.mm.bing.net/th?id=OIP.FcTXkLxB9Gbz4hDThAyEnQAAAA&pid=Api&P=0&h=180" width="70" height="70"></button>
+			<button class="scissor"><b>Scissor</b><img src="https://tse3.mm.bing.net/th?id=OIP.Yq5brfMgrfiaRyAAPDfZDAHaHv&pid=Api&P=0&h=180" width="70" height="70"></button>	
+		</div>
+		
+		<!--Final result of game -->
+		<div class="result"></div>
+		
+		<!--Reload the game -->
+		<button class="reload"></button>
+
+	</section>
+
+	<script src="app.js"></script>
+</body>
+</html>
